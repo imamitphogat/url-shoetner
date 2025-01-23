@@ -49,10 +49,6 @@ Other Functionalities
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
-
 **Framework:** Laravel 11
 
 **Programming** Language: PHP 8.2+
@@ -68,7 +64,7 @@ Other Functionalities
 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/imamitphogat/url-shortner.git
 cd url-shortener
 ```
 
