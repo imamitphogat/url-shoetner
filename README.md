@@ -49,6 +49,10 @@ Other Functionalities
 
 ## Tech Stack
 
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Express
+
 **Framework:** Laravel 11
 
 **Programming** Language: PHP 8.2+
@@ -119,7 +123,8 @@ php artisan migrate
 Seed the database with initial data like roles and the Super Admin account:
 
 ```bash
-php artisan db:seed
+php artisan db:seed --class=RoleSeeder
+php artisan db:seed --class=SuperAdminSeeder
 ```
 6. Serve the Application
 
@@ -135,3 +140,4 @@ Login credential Of SuperUser
     Email : admin@example
     Password: password
 or you can change these before seeding data into the database
+and if you dont want to create anydatabse then import database file from mysql databse to your own databse 
